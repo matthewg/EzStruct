@@ -1,0 +1,8 @@
+include .bumpversion.cfg
+include *.rst
+include LICENSE
+include Makefile
+include pylint.cfg
+recursive-include doc *.py
+recursive-include doc *.rst
+recursive-include tests *.py
